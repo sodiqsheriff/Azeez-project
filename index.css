@@ -1,0 +1,93 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+  }
+  
+  .background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('./painting.avif'); /* Change to your desired background image */
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: white;
+  }
+  
+  h1, h2 {
+    margin-bottom: 20px;
+  }
+  
+  .budget {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .budget-value {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .budget-income, .budget-expense {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .budget-title {
+    margin-right: 10px;
+  }
+  
+  input[type="number"], button {
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .expenses {
+    width: 70%;
+    max-width: 500px;
+  }
+  
+  .expenses h2 {
+    margin-bottom: 10px;
+  }
+  
+  .expenses ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .expense-item {
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
